@@ -1,0 +1,22 @@
+development
+===========
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+e2e test
+========
+
+backend---> cross-env
+	create .env.e2e
+
+create e2e-tests folder
+E:\Programming Code\Mern_Booking_App>cd e2e-tests
+E:\Programming Code\Mern_Booking_App\e2e-tests>npm init playwright@latest
+
+
+deploymenent
+============
+backedn
+
+npx tsc --init
